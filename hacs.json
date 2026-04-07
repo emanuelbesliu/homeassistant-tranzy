@@ -1,0 +1,8 @@
+{
+  "name": "Tranzy SCTP Iași",
+  "content_in_root": false,
+  "filename": "tranzy",
+  "country": ["RO"],
+  "render_readme": true,
+  "homeassistant": "2024.1.0"
+}

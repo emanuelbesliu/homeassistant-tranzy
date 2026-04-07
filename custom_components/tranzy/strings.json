@@ -1,0 +1,65 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure Tranzy SCTP Iași",
+        "description": "Enter your Tranzy.ai OpenData API key.",
+        "data": {
+          "api_key": "API Key"
+        }
+      },
+      "select_routes": {
+        "title": "Select Routes",
+        "description": "Select the routes you want to monitor. Trams are listed first, then buses.",
+        "data": {
+          "selected_routes": "Routes to monitor"
+        }
+      },
+      "select_stops": {
+        "title": "Select Stops",
+        "description": "Select your favorite stops. Only stops served by selected routes are shown.",
+        "data": {
+          "selected_stops": "Favorite stops"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-authenticate Tranzy",
+        "description": "Your Tranzy API key is no longer valid. Please enter a new key.",
+        "data": {
+          "api_key": "API Key"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid API key. Check your Tranzy.ai OpenData key.",
+      "cannot_connect": "Cannot connect to Tranzy API. Check your internet connection.",
+      "no_agencies": "No agencies returned by the Tranzy API.",
+      "no_routes": "No routes found for SCTP Iași.",
+      "no_selection": "Please select at least one item.",
+      "unknown": "Unknown error occurred. Check Home Assistant logs."
+    },
+    "abort": {
+      "already_configured": "This Tranzy account is already configured.",
+      "reauth_successful": "Re-authentication was successful.",
+      "cannot_connect": "Cannot connect to Tranzy API."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Tranzy Options",
+        "description": "Change the routes you want to monitor.",
+        "data": {
+          "selected_routes": "Routes to monitor"
+        }
+      },
+      "select_stops": {
+        "title": "Select Stops",
+        "description": "Select your favorite stops for the selected routes.",
+        "data": {
+          "selected_stops": "Favorite stops"
+        }
+      }
+    }
+  }
+}

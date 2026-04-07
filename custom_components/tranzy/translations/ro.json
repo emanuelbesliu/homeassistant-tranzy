@@ -1,0 +1,65 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurare Tranzy SCTP Iași",
+        "description": "Introduceți cheia API Tranzy.ai OpenData.",
+        "data": {
+          "api_key": "Cheie API"
+        }
+      },
+      "select_routes": {
+        "title": "Selectare Rute",
+        "description": "Selectați rutele pe care doriți să le monitorizați. Tramvaiele sunt listate primele, apoi autobuzele.",
+        "data": {
+          "selected_routes": "Rute de monitorizat"
+        }
+      },
+      "select_stops": {
+        "title": "Selectare Stații",
+        "description": "Selectați stațiile favorite. Sunt afișate doar stațiile deservite de rutele selectate.",
+        "data": {
+          "selected_stops": "Stații favorite"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-autentificare Tranzy",
+        "description": "Cheia API Tranzy nu mai este validă. Introduceți o cheie nouă.",
+        "data": {
+          "api_key": "Cheie API"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Cheie API invalidă. Verificați cheia Tranzy.ai OpenData.",
+      "cannot_connect": "Nu se poate conecta la API-ul Tranzy. Verificați conexiunea la internet.",
+      "no_agencies": "Nicio agenție returnată de API-ul Tranzy.",
+      "no_routes": "Nu s-au găsit rute pentru SCTP Iași.",
+      "no_selection": "Selectați cel puțin un element.",
+      "unknown": "Eroare necunoscută. Verificați logurile Home Assistant."
+    },
+    "abort": {
+      "already_configured": "Acest cont Tranzy este deja configurat.",
+      "reauth_successful": "Re-autentificarea a fost realizată cu succes.",
+      "cannot_connect": "Nu se poate conecta la API-ul Tranzy."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Opțiuni Tranzy",
+        "description": "Modificați rutele pe care doriți să le monitorizați.",
+        "data": {
+          "selected_routes": "Rute de monitorizat"
+        }
+      },
+      "select_stops": {
+        "title": "Selectare Stații",
+        "description": "Selectați stațiile favorite pentru rutele selectate.",
+        "data": {
+          "selected_stops": "Stații favorite"
+        }
+      }
+    }
+  }
+}
